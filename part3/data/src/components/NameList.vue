@@ -23,6 +23,6 @@ export default {
     return {
       names, loadData
     }
-  },
+  }
 }
 </script>

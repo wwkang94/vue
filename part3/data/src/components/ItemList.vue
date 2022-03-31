@@ -1,8 +1,10 @@
 <template>
-  <button @click="loadData">load</button>
-  <ul>
-    <li v-for="(name, idx) in names" :key="idx">{{ name }}</li>
-  </ul>
+  <div>
+    <button @click="loadData">load</button>
+    <ul>
+      <li v-for="(name, idx) in names" :key="idx">{{ name }}</li>
+    </ul>
+  </div>
 </template>
 
 <script>
