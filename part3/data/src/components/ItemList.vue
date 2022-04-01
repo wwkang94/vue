@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="loadData">load</button>
+    <button @click="loadData">load ok</button>
     <ul>
       <li v-for="(name, idx) in names" :key="idx">{{ name }}</li>
     </ul>
